@@ -25,11 +25,11 @@ gutter klasse 2
 
 ```Oppgave 2
 ```e)
-```SELECT * FROM `dromtorp` WHERE fornavn LIKE = 'M%' AND klasse = 2;
+```SELECT * FROM `dromtorp` WHERE fornavn LIKE = 'M%' AND klasse = 2;```
 
 ### test
 - test
 > test
 ```sql
 SELECT * FROM database
-```
+
