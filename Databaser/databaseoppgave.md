@@ -44,5 +44,5 @@ Oppgave 3
 Oppgave 4
 ![Placeholder](https://media.discordapp.net/attachments/837646034511200316/1014861271629299753/Screenshot_2022-09-01_at_13.36.01.png)
 ![Placeholder](![image](https://user-images.githubusercontent.com/91245857/187904915-8c9951d8-a861-486c-a943-843abd9dc4e4.png)
-)
+
 
