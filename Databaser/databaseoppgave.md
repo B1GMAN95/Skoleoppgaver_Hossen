@@ -44,3 +44,10 @@ Oppgave 3
 Oppgave 4
 ![Placeholder](https://media.discordapp.net/attachments/837646034511200316/1014861271629299753/Screenshot_2022-09-01_at_13.36.01.png)
 ![Placeholder](https://media.discordapp.net/attachments/837646034511200316/1014861271964852254/Screenshot_2022-09-01_at_13.36.18.png)
+
+
+
+
+
+Oppgave 6
+![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014870788177920102/Screenshot_2022-09-01_at_14.14.04.png)
