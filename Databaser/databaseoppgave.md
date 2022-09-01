@@ -51,3 +51,23 @@ Oppgave 4
 
 Oppgave 6
 ![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014870788177920102/Screenshot_2022-09-01_at_14.14.04.png)
+
+
+Oppgave 7
+![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014872176173789244/Screenshot_2022-09-01_at_14.19.38.png)
+
+
+Oppgave 8
+
+![Placeholder](https://user-images.githubusercontent.com/91245857/187912690-2ceaa10f-aa6f-4dc7-bd8e-26f638379553.png)
+
+
+Oppgave 9 
+![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014873177777786890/Screenshot_2022-09-01_at_14.23.36.png)
+
+Oppgave 10
+
+![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014874125426229298/Screenshot_2022-09-01_at_14.27.22.png)
+
+
+
