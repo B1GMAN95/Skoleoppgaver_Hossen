@@ -30,3 +30,8 @@ Oppgave 2
 SELECT * FROM `dromtorp` WHERE fornavn LIKE = 'M%' AND klasse = 2;
 ```
 
+Oppgave 2
+>f)
+```
+SELECT * FROM `dromtorp` WHERE hobby = 'fotball';
+```
