@@ -35,3 +35,10 @@ Oppgave 2
 ```sql
 SELECT * FROM `dromtorp` WHERE hobby = 'fotball';
 ```
+
+Oppgave 3 
+![Placeholder](https://media.discordapp.net/attachments/837646034511200316/1014854163840114768/Screenshot_2022-09-01_at_13.08.01.png)
+ Med primær nøkkel
+![Placeholder](https://media.discordapp.net/attachments/837646034511200316/1014854451326111854/Screenshot_2022-09-01_at_13.09.07.png?width=1920&height=599)
+
+
