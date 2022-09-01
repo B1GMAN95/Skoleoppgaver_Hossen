@@ -26,12 +26,12 @@ SELECT * FROM `dromtorp` WHERE fornavn LIKE = 'j%';
 
 Oppgave 2
 >e)
-```
+```sql
 SELECT * FROM `dromtorp` WHERE fornavn LIKE = 'M%' AND klasse = 2;
 ```
 
 Oppgave 2
 >f)
-```
+```sql
 SELECT * FROM `dromtorp` WHERE hobby = 'fotball';
 ```
