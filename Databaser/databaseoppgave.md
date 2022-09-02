@@ -70,4 +70,3 @@ Oppgave 10
 ![Placeholder](https://media.discordapp.net/attachments/850882023271038987/1014874125426229298/Screenshot_2022-09-01_at_14.27.22.png)
 
 
-
