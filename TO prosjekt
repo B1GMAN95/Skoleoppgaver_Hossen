@@ -7,7 +7,7 @@ Brukeren har vanskelig for å lære seg språk, spesielt engelsk. Hun observerer
 Applikasjon
 Hva er applikasjonen?
 Applikasjonen er et TRUE-FALSE spill, som skal gi brukeren ett riktig svar og et feil svar. Brukeren starter med 0 poeng og får ett poeng for riktig svar. Når alle 10 spørsmålene er stilt, får man en poeng-Score, og gis muligheten til å starte igjen. Det skal være to måter å visualisere spørsmålet på:
-
+ 
 Et bilde. Hva er dette på engelsk? Deretter svaralternativer.
 Fortelle et ord på norsk, og deretter spørre hva det heter på engelsk. Her skal det være et tekstfelt, som brukeren skal skrive inn.
 Fremgangsmøte
