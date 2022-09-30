@@ -1,30 +1,38 @@
 const express = require('express')
 const app = express()
 const port = 3000
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+const mysql = require('mysql');
+const cors = require('cors')
+app.use(cors());
 
 
-
-var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'root',
   database : 'Dromtorp'
 });
 
 connection.connect();
 
-connection.query('SELECT * FROM students;', function (error, results, fields) {
-  if (error) throw error;
-  console.log('The solution is: ', results[0].solution);
+app.get('/test', (req, res) => {
+  connection.query('SELECT * FROM dromtorp;', function (error, results, fields) {
+    if (error) throw error;
+    res.send(results)
+  });
+
+}) 
+app.get('/deleterow/:elevid', (req, res) => {
+
+  var getElevID = req.params.elevid;
+    let sql = 'SELECT * FROM dromtorp where elevid = "' + getElevID + '"';
+    connection.query(sql, (error, results, fields) => {
+        if (error) {
+            return console.error(error.message);
+        }
+        res.send(results);
+    });
 });
 
-connection.end();
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

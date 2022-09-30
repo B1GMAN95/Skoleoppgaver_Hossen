@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script defer src='main.js'></script>
+</head>
 <body>
+  <button id="test">Hent database</button>
+  <table id="table">
+  <button id="delete">slett rad</button>
+  </table>
+  <template id="rowTemplate">
+    <tr>
+      <td id="elevid"></td>
+      <td id="fornavn"></td>
+      <td id="etternavn"></td>
+      <td id="hobby"></td>
+      <td id="kjonn"></td>
+      <td id="klasse"></td>
+      <td id="datamaskin"></td>
+    </tr>
+  </template>
 
-<h2>HTML Forms</h2>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+  <div class="box">
+    <h2> Delete row from table  </h2>
+    <form action="javascript:deleteRow()">
+        <label for="fname">Hvilken elev vil du slette? Skriv elevID</label><br>
+        <input type="text" id="hvilken_elev" value="1"><br>
+        <input type="submit" value="Delete from elev table">
+      </form> 
+</div>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
+  
 </body>
 </html>
-
