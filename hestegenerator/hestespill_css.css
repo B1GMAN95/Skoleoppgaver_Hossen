@@ -1,0 +1,234 @@
+.overskrift {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.imgcontent {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #e3ebfe;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+Button {
+  width: 270px;
+  height: 80px;
+  border: 0;
+  outline: none;
+  background: #f60000;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#neste {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tilbake {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  .overskrift {
+    display: flex;
+    justify-content: center;
+    color: red;
+  }
+  
+  .imgcontent {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: #e3ebfe;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  
+  Button {
+    width: 300px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    background: #f60000;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  #neste {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #tilbake {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    padding: 5%;
+    justify-content: space-between;
+  }
+  
+  .topnav {
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+  }
+  
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .overskrift {
+    display: flex;
+    justify-content: center;
+    color: red;
+  }
+  
+  .imgcontent {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: #e3ebfe;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  
+  Button {
+    width: 150px;
+    height: 70px;
+    border: 0;
+    outline: none;
+    background: #f60000;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  #neste {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #tilbake {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    padding: 5%;
+    justify-content: space-between;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: non
+}
