@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horse Quiz</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hestequiz.css" />
+    <script defer src="hestequiz.js"></script>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <a href="hestespill_html.html">HEST</a>
+      <a href="https://dromtorpvgs.github.io/2ITA-TO/">Utviklere</a>
+      <a href="javascript:window.location.reload()">Hestequiz</a>
+    </nav>
+    <div id="quiz">
+      <h1>Horse Quiz</h1>
+      <form action="">
+        <ul>
+          <li>
+            <label>Hva er det vitenskapelige navnet på hesten?</label>
+            <input type="radio" name="svar" value="Equus caballus" />Equus
+            caballus<br />
+            <input type="radio" name="svar" value="Equus ferus" />Equus ferus<br />
+            <input type="radio" name="svar" value="Equus asinus" />Equus
+            asinus<br />
+          </li>
+          <li>
+            <label>hva er gjennomslitlig levetid for en hest?</label>
+            <input type="radio" name="svar2" value="20 years" />20 år<br />
+            <input type="radio" name="svar2" value="25 years" />25 år<br />
+            <input type="radio" name="svar2" value="30 years" />30 år<br />
+          </li>
+          <li>
+            <label>Hva er gjennomslitlig høyde for en hest?</label>
+            <input type="radio" name="svar3" value="121 cm" />121 cm<br />
+            <input type="radio" name="svar3" value="152 cm" />152 cm<br />
+            <input type="radio" name="svar3" value="182 cm" />182 cm<br />
+          </li>
+          <li>
+            <label>Hva er en gjennomslitlig vekt for en hest?</label>
+            <input type="radio" name="svar4" value="360 kg" />362.9 kg<br />
+            <input type="radio" name="svar4" value="453 kg" />453.6 kg<br />
+            <input type="radio" name="svar4" value="544 kg" />544.3 kg<br />
+          </li>
+          <li>
+            <label>hva er gjennomslitlig fart for en hest?</label>
+            <input type="radio" name="svar5" value="40 kmt" />40 KMT<br />
+            <input type="radio" name="svar5" value="48 kmt" />48 KMT<br />
+            <input type="radio" name="svar5" value="56 kmt" />56 KMT<br />
+          </li>
+        </ul>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
