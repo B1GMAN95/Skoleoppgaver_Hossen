@@ -1,0 +1,67 @@
+ /* Sett bakgrunnsfarge på hele siden */
+ body {
+    background-color: #e9ecef;
+  }
+
+  /* Sett størrelsen på containeren og legg til litt padding */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 10%;
+  }
+
+  /* Sentrer overskriften og legg til litt ekstra margin på toppen */
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* Legg til litt padding og bakgrunnsfarge på skjemaet */
+  form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Sett størrelsen på input-feltene og legg til litt margin mellom feltene */
+  input[type="text"],
+  textarea {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  }
+
+  /* Legg til litt padding og bakgrunnsfarge på send-knappen */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  /* Legg til hover-effekt på send-knappen */
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  /* Legg til bold font-weight på label-elementene */
+  label {
+    font-weight: bold;
+  }
+
+
+  .form-gruppe  {
+
+
+
+  }
