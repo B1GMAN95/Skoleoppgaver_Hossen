@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* Setter skrifttypen for hele dokumentet */
+    background-color: #f2f2f2; /* Setter bakgrunnsfargen for hele dokumentet */
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Setter bakgrunnsfargen for overskrift og navigasjonsmeny */
+    color: #fff; /* Setter farge på teksten i overskriften og navigasjonsmenyen */
+    padding: 20px; /* Legger til litt luft rundt innholdet i header */
+  }
+  
+  nav ul {  
+    list-style-type: none; /* Fjerner punktene foran hvert element i navigasjonsmenyen */
+    margin: 0; /* Fjerner margen rundt navigasjonsmenyen */
+    padding: 0; /* Fjerner padding rundt navigasjonsmenyen */
+    
+  }
+  
+  nav li {
+    display: inline-block; /* Setter elementene i navigasjonsmenyen ved siden av hverandre */
+    margin-right: 20px; /* Legger til litt avstand mellom hvert element i navigasjonsmenyen */
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Fjerner avstanden til høyre for det siste elementet i navigasjonsmenyen */
+  }
+  
+  nav a {
+    color: #fff; /* Setter farge på lenkene i navigasjonsmenyen */
+    text-decoration: none; /* Fjerner understrekingen fra lenkene i navigasjonsmenyen */
+  }
+  
+  main {
+    max-width: 800px; /* Setter en maksimumsbredde for innholdet i hovedseksjonen */
+    margin: 0 auto; /* Senterer innholdet i hovedseksjonen horisontalt */
+    padding: 20px; /* Legger til litt luft rundt innholdet i hovedseksjonen */
+  }
+  
+  footer {
+    background-color: #333; /* Setter bakgrunnsfargen for bunnteksten */
+    color: #fff; /* Setter farge på teksten i bunnteksten */
+    text-align: center; /* Sentrerer teksten i bunnteksten horisontalt */
+    padding: 10px; /* Legger til litt luft rundt innholdet i bunnteksten */
+    margin-bottom: 10%;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Setter bakgrunnsfargen for overskrift og navigasjonsmeny */
+    color: #fff; /* Setter farge på teksten i overskriften og navigasjonsmenyen */
+    padding: 20px; /* Legger til litt luft rundt innholdet i header */
+  }
+

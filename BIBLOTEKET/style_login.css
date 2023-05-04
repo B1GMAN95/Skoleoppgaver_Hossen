@@ -1,0 +1,98 @@
+/* Globale stiler */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body-stiler */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Container-stiler */
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+  }
+  
+  /* Overskriftsstiler */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Skjemastiler */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Knappstiler */
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  nav ul {
+    list-style-type: none; /* Fjerner punktene foran hvert element i navigasjonsmenyen */
+    margin: 0; /* Fjerner margen rundt navigasjonsmenyen */
+    padding: 0; /* Fjerner padding rundt navigasjonsmenyen */
+  }
+  
+  nav li {
+    display: inline-block; /* Setter elementene i navigasjonsmenyen ved siden av hverandre */
+    margin-right: 20px; /* Legger til litt avstand mellom hvert element i navigasjonsmenyen */
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Fjerner avstanden til høyre for det siste elementet i navigasjonsmenyen */
+  }
+  
+  nav a {
+    color: #ffffff; /* Setter farge på lenkene i navigasjonsmenyen */
+    text-decoration: none; /* Fjerner understrekingen fra lenkene i navigasjonsmenyen */
+  }
+  header {
+    background-color: #333; /* Setter bakgrunnsfargen for overskrift og navigasjonsmeny */
+    color: #fff; /* Setter farge på teksten i overskriften og navigasjonsmenyen */
+    padding: 20px; /* Legger til litt luft rundt innholdet i header */
+  }
+
+  
+
+
+
+
+  
